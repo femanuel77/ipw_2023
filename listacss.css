@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin: 3%;
+}
+hr {
+    height: 3px;
+    background-color: blue;
+}
+#square {
+    list-style-type: square;
+}
+#circle {
+    list-style-type: circle;
+}
+#disk {
+    list-style-type: disc;
+}
+#img {
+    list-style: url(imagens_lista/seta_azul.gif);
+}
+#num {
+    list-style-type: decimal;
+}
+#rom {
+    list-style-type: lower-roman;
+}
+#abc {
+    list-style-type: lower-alpha;
+}

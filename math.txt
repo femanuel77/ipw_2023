@@ -1,0 +1,14 @@
+Math.pow(x, y): x ELEVADO A POTENCIA y
+Math.round(): ARREDONDA PARA O INTEIRO MAIS PROXIMO
+Math.ceil(): ARREDONDA PARA CIMA PARA UM INTEIRO
+Math.floor(): ARREDONDA PARA BAIXO PARA UM INTEIRO
+Math.abs (): valor absoluto
+Math.max(0, 2, 3): retorna o maior argumento
+Math.min(0, 2, 3): retorna o menor argumento
+Math.random(): Numero aleatorio
+Math.PI: CIRCUNFERENCIA DE UM CIRCULO
+Math.E: a base do logaritmo natural
+Math.sqrt():  raiz quadrada
+Math.pow(x, 1/3): a raiz cubica de x
+Math.log(10): logaritimo natural de 10
+Math.exp(3): Math.E ao cubo

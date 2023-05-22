@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%;
+}
+h3 {
+    color: #007e7e;
+}
+#hr {
+    height: 2px;
+    color: #007e7e;
+    background-color: #007e7e;
+    border: #007e7e;
+}
+h4 {
+    color: #007e7e;
+}
+#verde {
+    color: green;
+}
+#azul {
+    color: blue;
+}
+#roxo {
+    color: purple;
+}
+#maroon {
+    color: maroon;
+}
+p.grey {
+    color: grey;
+    text-align: center;
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulários</title>
+    </head>
+    <body>
+        <p>&nbsp;</p>
+        <form method="post">
+            <table align="center" border="">
+                <tr>
+                    <td>
+                        <b>Número:</b>
+                    </td>
+                    <td>
+                        <input type="text" name="n">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3">
+                        <b>Bandeira:</b>
+                    </td>
+                    <td>
+                        <input type="radio" name="a" value="1">
+                        <img src="exec/visa.jpg" align="center">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="a" value="2">
+                        <img src="exec/master.jpg" align="center">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="a" value="3">
+                        <img src="exec/american.jpg" align="center">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Validade:</b>
+                    </td>
+                    <td>
+                        <select name="v" value="5">
+                            <option value="2012">2012</option>
+                            <option value="2013">2013</option>
+                            <option value="2014">2014</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <p>&nbsp;</p>
+            <fieldset style="width: 20%; margin-left: auto; margin-right: auto;">
+                <legend>Informações do aquário:</legend>
+                <table align="center">
+                    <tr>
+                        <td>
+                            <b>PH do aquário:</b>    
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="ph" value="ac">Ácido
+                        </td>
+                        <td>
+                            <input type="radio" name="ph" value="al">Alcalino
+                        </td>
+                    </tr>
+                </table>
+                <fieldset>
+                    <legend>Peixes:</legend>
+                    <table align="center">
+                        <tr>
+                            <td>
+                                <b>Quantidade:</b>
+                            </td>
+                            <td>
+                                <input type="text" name="ti" size="3">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Espécie:</b>
+                            </td>
+                            <td>
+                                <select name="esp">
+                                    <option value="1">Espada</option>
+                                    <option value="2">Molinésia</option>
+                                    <option value="3">Plati</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <table align="center">
+                    <tr>
+                        <td colspan="2">
+                            <center><b>Outros:</b></center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="pe" value="pe">Pedras
+                        </td>
+                        <td>
+                            <input type="checkbox" name="pl" value="pl">Plantas
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <p>&nbsp;</p>
+            <table align="center" width="40%">
+                <tr>
+                    <td colspan="4">
+                        <center><b>Escola Virtual</b></center></br>
+                        <center><b>Formulário de pré-matrícula</b></center>
+                    </td>
+                </tr>
+                <table align="center" width="40%" cellspacing="5">
+                    <tr>
+                        <td colspan="2">
+                            <hr size="4" color="grey">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <b>Dados pessoais:</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50%" align="right">
+                            Nome do aluno:
+                        </td>
+                        <td width="50%">
+                            <input type="text" name="nome">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            Data de nascimento:
+                        </td>
+                        <td>
+                            <input type="date" name="dat" size="2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            Nome da mãe:
+                        </td>
+                        <td>
+                            <input type="text" name="mae">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            Nome do pai:
+                        </td>
+                        <td>
+                            <input type="text" name="pai">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            Telefone:
+                        </td>
+                        <td>
+                            DDD (<input type="text" name="ddd" size="1">)
+                            Tel:<input type="text" name="tel" size="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            Email:
+                        </td>
+                        <td>
+                            <input type="email" name="email">
+                        </td>
+                    </tr>
+                </table>
+                <table align="center" cellspacing="5" width="40%">
+                    <tr>
+                        <td colspan="4">
+                            <hr size="4" color="grey">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <b>Informações de Matrícula:</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Série:
+                        </td>
+                        <td>
+                            Turno:
+                        </td>
+                        <td colspan="2">
+                            Atividades extracurriculares:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="serie">
+                                <option value="0">Pré-Escolar</option>
+                                <option value="1">1º ano</option>
+                                <option value="2">2º ano</option>
+                                <option value="3">3º ano</option>
+                                <option value="4">4º ano</option>
+                                <option value="5">5º ano</option>
+                                <option value="6">6º ano</option>
+                                <option value="7">7º ano</option>
+                                <option value="8">8º ano</option>
+                                <option value="9">9º ano</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="radio" name="tur" value="mat">Matutino</br>
+                            <input type="radio" name="tur" value="ves">Vespertino
+                        </td>
+                        <td>
+                            <input type="checkbox" name="inf" value="inf">Informática</br>
+                            <input type="checkbox" name="mus" value="mus">Música</br>
+                            <input type="checkbox" name="pin" value="pin">Pintura</br>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="bal" value="bal">Ballet</br>
+                            <input type="checkbox" name="jud" value="jud">Judô</br>
+                            <input type="checkbox" name="fut" value="fut">Futebol</br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <center></p>
+                            <input type="submit" value="Enviar Formulário">
+                            <input type="submit" value="Limpar Campo">
+                            </center>
+                        </td>
+                    </tr>
+                </table>
+            </table>
+        </form>
+        <p>&nbsp;</p>
+    </body>
+</html>
