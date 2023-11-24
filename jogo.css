@@ -1,0 +1,51 @@
+body {
+    background-color: greenyellow;
+}
+#jogo {
+    position: relative;
+    background-color: aqua;
+    margin: 5px 5px 50px 5px;
+    height: 500px;
+}
+#ani1 {
+    margin: 0%;
+    width: 100%;
+    text-align: right;
+    transform: translateX(-340);
+    
+}
+#nuvem {
+    width: 30%;
+    animation-name: nuvem;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes nuvem {
+    0%{
+        transform: translateX(120%);
+    }
+    100%{
+        transform: translateX(-350%);
+    }
+
+}
+#ani2{
+    transform: translateY(260%);
+    
+}
+#dino {
+    width: 7%;
+    animation-name: dino;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes dino {
+    0%{
+        transform: translateX(-120%);
+    }
+    100%{
+        transform: translateX(1500%);
+    }
+}

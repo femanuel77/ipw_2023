@@ -1,0 +1,39 @@
+body {
+    background-image: url(matrix/fundo_matrix.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo {
+    text-align: center;
+}
+#corp {
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin-left: 10%;
+}
+h3.top{
+    padding-top: 1%;
+    color: lightgreen;
+}
+#table {
+    display: table;
+}
+#img {
+    display: table-cell;
+    float: left;
+    padding-top: 4px;
+}
+#text {
+    display: table-cell;
+    float: left;
+    text-align: justify;
+    width: 950px;
+    color: lightgreen;
+    font-family: Verdana;
+    padding-left: 10px;
+}
+a{
+    text-align: center;
+    color: lightgreen;
+    padding-bottom:1% ;
+}
